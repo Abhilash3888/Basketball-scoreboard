@@ -1,48 +1,48 @@
-let homeScoreEl= document.querySelector(".home-score");
-let guestScoreEl= document.querySelector(".guest-score");
-let homeCount=0;
-let guestCount=0;
+let homeScoreEl = document.querySelector(".home-score");
+let awayScoreEl = document.querySelector(".away-score");
+let homeCount = 0;
+let awayCount = 0;
 
-function homePlusOne(){
-    
-    homeCount+=1;
+function homePlusOne() {
+
+    homeCount += 1;
     updateHomeScore();
 }
 
-function homePlusTwo(){
-    homeCount+=2;
+function homePlusTwo() {
+    homeCount += 2;
     updateHomeScore();
 }
 
-function homePlusThree(){
-    
-    homeCount+=3;
+function homePlusThree() {
+
+    homeCount += 3;
     updateHomeScore();
 }
 
-function updateHomeScore(){
-    homeScoreEl.textContent=homeCount;
-    
+function updateHomeScore() {
+    homeScoreEl.textContent = homeCount;
+
 }
 
-function guestPlusOne(){
-    
-    guestCount+=1;
-    updateGuestScore();
+function awayPlusOne() {
+
+    awayCount += 1;
+    updateawayScore();
 }
 
-function guestPlusTwo(){
-    guestCount+=2;
-    updateGuestScore();
+function awayPlusTwo() {
+    awayCount += 2;
+    updateawayScore();
 }
 
-function guestPlusThree(){
-    
-    guestCount+=3;
-    updateGuestScore();
+function awayPlusThree() {
+
+    awayCount += 3;
+    updateawayScore();
 }
 
-function updateGuestScore(){
-    guestScoreEl.textContent=guestCount;
-    
+function updateawayScore() {
+    awayScoreEl.textContent = awayCount;
+
 }

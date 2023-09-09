@@ -1,33 +1,38 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <div class="home">
-                <h3>HOME</h3>
-                <div class="score-board">
-                    <p class="home-score">0</p>
-                </div>
-                <div class="increment">
-                    <button class="home1" onclick="homePlusOne()">+1</button>
-                    <button class="home2" onclick="homePlusTwo()">+2</button>
-                    <button class="home3" onclick="homePlusThree()">+3</button>
-                </div>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="score-board">
+                <p class="home-score">0</p>
             </div>
-            <div class="guest">
-                <h3>GUEST</h3>
-                <div class="score-board">
-                    <p class="guest-score">0</p>
-                </div>
-                <div class="increment">
-                    <button class="guest1" onclick="guestPlusOne()">+1</button>
-                    <button class="guest2" onclick="guestPlusTwo()">+2</button>
-                    <button class="guest3" onclick="guestPlusThree()">+3</button>
-                </div>
+            <div class="increment">
+                <button class="home1" onclick="homePlusOne()">+1</button>
+                <button class="home2" onclick="homePlusTwo()">+2</button>
+                <button class="home3" onclick="homePlusThree()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="away">
+            <h3>AWAY</h3>
+            <div class="score-board">
+                <p class="away-score">0</p>
+            </div>
+            <div class="increment">
+                <button class="away1" onclick="awayPlusOne()">+1</button>
+                <button class="away2" onclick="awayPlusTwo()">+2</button>
+                <button class="away3" onclick="awayPlusThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
